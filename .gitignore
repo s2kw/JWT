@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# data txt
+emails.txt
+bundle_ids.txt
+

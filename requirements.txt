@@ -1,0 +1,13 @@
+certifi==2025.4.26
+cffi==1.17.1
+charset-normalizer==3.4.2
+cryptography==44.0.3
+DateTime==5.5
+idna==3.10
+pycparser==2.22
+PyJWT==2.10.1
+pytz==2025.2
+requests==2.32.3
+setuptools==80.7.1
+urllib3==2.4.0
+zope.interface==7.2
