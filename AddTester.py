@@ -12,7 +12,7 @@ api_headers = {
     'Content-Type': 'application/json'
 }
 
-GROUP_NAME = "group_name"
+GROUP_NAME = "管理部"
 
 # 2. アシスタント関数
 
