@@ -119,6 +119,9 @@ with open("bundle_ids.txt") as bf:
     bundle_ids = [line.strip() for line in bf if line.strip()]
 
 for bundle_id in bundle_ids:
+    # スキップ文字列を含む場合は次へ
+    if '#'in bundle_id:
+        continue
     print(f"--- Processing app: {bundle_id} ---")
     app_id = get_app_id(bundle_id)
     if not app_id:

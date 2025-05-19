@@ -50,7 +50,7 @@ expireの期限を発行から5分後に設定しないと動作しない。
 ※ .p8 はデフォルトパス（~/.appstoreconnect/private_keys/）に置いておけば自動的に読み込まれる。ファイル名を変更すると読み込まれないかもしれないので注意。ファイル名 = APIキー名。
 
 
-## AddTester
+## AddTester.py
 AppStoreConnect経由で手動でやらなければならなかったテスターの追加を自動で行う。
 
 必要なデータは下記2点で詳細は後述
@@ -74,5 +74,13 @@ com.apple.myapp
 slownin9232@gmail.com
 k-sasakawa@dxg.jp
 ```
+
+## AddBuild.py
+作成済みのグループにビルドを追加するスクリプト。
+しかしInternal:trueのテストではビルドをAPI経由での追加できない。
+なので手動でやるしかない。
+
+
+残念。
 
 
